@@ -1,0 +1,115 @@
+:root {
+    --color1: #45434f;
+    --color2: #3a4742;
+    --color3: #312f38;
+    --color4: #D01D1D;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.menu {
+    width: 90%;
+    height: 10vh;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    
+}
+body {
+    background: var(--color3);
+    font-family: 'Oswald', sans-serif;
+    height:300vh;
+}
+div.nav {
+    height: 10vh;
+    font-size: 4vh;
+    line-height: 10vh;
+    width: 70vw;
+    margin-left: 49vw;
+}
+div.nav a{
+    text-decoration: none;
+    color: var(--color3);
+    font-weight: bold;
+    
+}
+div.nav a:hover{
+    color: var(--color4);
+}
+/* div.menu span {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: black;
+}
+span.one {
+    bottom: 0px;
+    left: 0px;
+}
+span.two{
+    top: 0px;
+    left: 0px;
+}
+span.three {
+    top: 0px;
+    right: 0px;
+}
+span.four {
+    bottom: 0px;
+    right: 0;
+} */
+img {
+    width: 10vh;
+    height: 10vh;
+    background-color: white;
+    display: inline-block;
+}
+div.slidethree {
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+}
+.slidethree div {
+    background-color: var(--color1);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    line-height: 10vh;
+}
+.slideone div p{
+    font-size: 25px;
+}
+div.slideone {
+    padding-top: 25vh;
+    width: 90vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    margin: 0px auto;
+}
+.slidetwo {
+    width: 90vw;
+    margin: 0px auto;
+    height: 80vh;
+}
+.slidetwo .left {
+    width: 60%;
+    display: block;
+
+    height: inherit;
+}
+.slidetwo img {
+    width: 30%;
+    height: 80%;
+    margin-right: 100px;
+}
