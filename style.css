@@ -19,16 +19,14 @@ div.menu {
     display: flex;
     flex-direction: row;
     position: fixed;
-    
 }
-body {
-    background: var(--color3);
-    font-family: 'Oswald', sans-serif;
-    height:300vh;
+.menu span {
+    width: 6px;height: 6px;border-radius: 3px;
+    background-color: #312f38;
 }
 div.nav {
     height: 10vh;
-    font-size: 4vh;
+    font-size: 3.5vh;
     line-height: 10vh;
     width: 70vw;
     margin-left: 49vw;
@@ -37,34 +35,10 @@ div.nav a{
     text-decoration: none;
     color: var(--color3);
     font-weight: bold;
-    
 }
 div.nav a:hover{
     color: var(--color4);
 }
-/* div.menu span {
-    position: relative;
-    width: 5px;
-    height: 5px;
-    border-radius: 2.5px;
-    background-color: black;
-}
-span.one {
-    bottom: 0px;
-    left: 0px;
-}
-span.two{
-    top: 0px;
-    left: 0px;
-}
-span.three {
-    top: 0px;
-    right: 0px;
-}
-span.four {
-    bottom: 0px;
-    right: 0;
-} */
 img {
     width: 10vh;
     height: 10vh;
@@ -72,8 +46,9 @@ img {
     display: inline-block;
 }
 div.slidethree {
+    padding-top: 25vh;
     width: 100vw;
-    min-height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 7vh;
@@ -89,27 +64,56 @@ div.slidethree {
     font-size: 25px;
 }
 div.slideone {
-    padding-top: 25vh;
-    width: 90vw;
+    width: 100vw;
+    padding: 25vh 10vh 0 10vh;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 7vh;
-    margin: 0px auto;
 }
 .slidetwo {
-    width: 90vw;
-    margin: 0px auto;
-    height: 80vh;
+
+    width: 100vw;
+    padding:25vh 10vh 0 10vh;
+    height: 100vh;
 }
 .slidetwo .left {
     width: 60%;
     display: block;
-
     height: inherit;
 }
 .slidetwo img {
     width: 30%;
     height: 80%;
     margin-right: 100px;
+}
+.slidefour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 20vh;
+}
+.slidefour > h1{
+    width: 50vw;
+    font-size: 8vh;
+    margin: 0 auto;
+    text-align: center;
+}
+.slidefour .bottom {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+.slidefour .bottom > div{
+    width: 22vw;
+    height: inherit;
+    border-radius: 30px;
+    background-color: #45434f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
